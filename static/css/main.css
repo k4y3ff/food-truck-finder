@@ -1,0 +1,73 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+/*	background-color: #000;*/
+}
+
+a {
+	color: red;
+}
+
+h1 {
+	font-size: 18px;
+	text-align: center;
+}
+
+.button {
+	background-color: #F00;
+	border-color: #000;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.pac-container {
+	height: 65px;
+}
+
+#map-canvas {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+#nav {
+	background-color: #FFF;
+	border: 3px solid #000;
+
+	height: 175px;
+	width: 300px;
+
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index: 99;
+
+	padding-top: 10px;
+	padding-left: 20px;
+
+	text-align: center;
+}
+
+#nav h1 {
+	font-size: 24px;
+	font-family: 'Patua One', Helvetica, sans-serif;
+	color: #000;
+}
+
+#nav p {
+	font-size:  16px;
+	font-family: Helvetica, sans-serif;
+	color: #000;
+}
+
+#search-bar {
+	display: block;
+}
+
+#info-window {
+	width: 300px;
+}
